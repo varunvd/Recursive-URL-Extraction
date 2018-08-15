@@ -1,0 +1,3 @@
+URL="your_url"
+NUMBER_OF_THREADS=5
+LIMIT=10000
