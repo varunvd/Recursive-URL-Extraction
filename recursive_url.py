@@ -39,7 +39,7 @@ if __name__ == '__main__':
 
     jobs = []
 
-    for thread in range(constants.NUMBER_OF_THREADS):
+    for thread_live in range(constants.NUMBER_OF_THREADS):
         thread_live = multiprocessing.Process(target=extract_all_urls())
         jobs.append(thread_live)
 
